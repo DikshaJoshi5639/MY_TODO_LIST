@@ -1,36 +1,43 @@
-## React
+# 📝 MY_TODO_LIST
 
-This is a simple React application. This application serves as a basic template for a react applications.  
-This project is bootstrapped with [Vite](https://vitejs.dev/guide/).
+A dynamic and interactive To-Do List web app built with **ReactJS**, featuring a login system, weekly task planner, floating UI elements, and a solar system theme inspired by Sanskrit-named planets.
 
-## How to run
+---
 
-1. Before running the application, make sure all dependencies are installed. To install dependencies, run following command in terminal:
-   ```sh
-   npm install
-   ```
+## 🚀 Features
 
-2. Once dependencies are installed, run the following command to start the application:
-   ```sh
-   npm run dev
-   ```
+- 🔐 **User Login System** – Secure and simple login to manage your tasks.
+- 📅 **Week Planner** – Add tasks for each day of the week.
+- 🪐 **Animated Solar System UI** – 9 planets named in **Sanskrit** orbit in the background.
+- 📌 **Floating Tasks** – Tasks appear as floating elements, improving visual focus.
+- 🎨 **Custom Buttons & Hover Effects** – Smooth UI interactions for a better user experience.
 
-3. Refresh the URL in simple browser to see the output. As shown below 
-   ![](https://static.onecompiler.com/images/posts/3zzkbysj7/studio-react-vite-reload.png)
+---
 
+## 📸 Screenshots
 
-## FAQs & Debugging
+![Home Page](C:\Users\Dell\Pictures\Screenshots)
+![Real View](C:\Users\Dell\Pictures\Screenshots)
 
- ### 1. I do not see browser in my workspace
- Studio will automatically open the app in a new browser tab. If not, you can use the following steps to open the simple browser 
+---
 
-1. From VS Code command pallette(`Ctrl/Cmd + Shift + P`), run **Studio Manager: SimpleBrowser Default URL** command. This will open the app in a new browser tab.
+## ⚙️ Tech Stack
 
-2. Your app runs on hosted env which can be accessed using host id, port provided in file **.vsocde/.studio/studio-env.json**. Use values to create the URL as follows:
-   `https://<STUDIO_HOST_ID>-3000.ocws.app`
+- **Frontend:** React.js, HTML, CSS
+- **Styling:** Custom CSS animations
+- **Icons/Assets:** Custom SVGs, background images
 
- ### 2. Getting `vite: not found` error
- This means node_modules are missing in your workspace, please refer the 'How to run' section and make sure you have followed the steps in sequence
+---
 
- ### 3. Can I use create-react-app instead Vite?
- Yes, you can use create-react-app instead Vite, the default workspace is loaded with Vite setup, you can remove the Vite dependencies, add create-react-app dependencies and update the scripts to start using create-react-app.
+## 📂 Folder Structure
+
+```plaintext
+my-todo-list/
+├── public/
+├── src/
+│   ├── assets/           # Images like zodiac-wheel, planets
+│   ├── components/       # Reusable UI components
+│   ├── App.jsx           # Main app logic
+│   └── App.css           # Styling
+├── package.json
+└── README.md
