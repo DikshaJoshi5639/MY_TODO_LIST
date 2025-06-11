@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle at center, #000 0%, #111 100%);
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
+
+.app {
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  min-height: 100vh;
+  z-index: 1;
+}
+
+/* Login box */
+.login-box {
+  background-color: #1c1c1c;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 300px;
+  margin: 100px auto;
+  box-shadow: 0 0 10px #fff2;
+}
+.login-box input {
+  padding: 0.5rem;
+  margin: 1rem 0;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background: #333;
+  color: white;
+}
+.login-box button {
+  background: #00b894;
+  border: none;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.login-box button:hover {
+  background: #00cec9;
+}
+
+/* Weekday buttons */
+.week-selector {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.week-selector button {
+  background: #2d3436;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.week-selector button.selected,
+.week-selector button:hover {
+  background: #0984e3;
+}
+
+/* Input + Task list */
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.input-section input {
+  padding: 0.5rem;
+  width: 250px;
+  border-radius: 4px;
+  border: 1px solid #444;
+  background-color: #1e1e1e;
+  color: white;
+}
+.input-section button {
+  padding: 0.5rem 1rem;
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.input-section button:hover {
+  background-color: #a29bfe;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: auto;
+}
+.task-item {
+  background-color: #1f1f1f;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.task-item button {
+  background-color: transparent;
+  border: none;
+  color: #ff4c4c;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Solar System Background */
+.solar-system {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.orbit {
+  position: absolute;
+  border: 1px dashed rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  animation: rotate linear infinite;
+}
+.planet {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6rem;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 2px;
+}
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
