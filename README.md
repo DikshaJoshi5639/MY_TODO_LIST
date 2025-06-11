@@ -16,8 +16,10 @@ A dynamic and interactive To-Do List web app built with **ReactJS**, featuring a
 
 ## 📸 Screenshots
 
-![Home Page](C:\Users\Dell\Pictures\Screenshots)
-![Real View](C:\Users\Dell\Pictures\Screenshots)
+![Home Page](![Screenshot 2025-06-11 152154](https://github.com/user-attachments/assets/f44c5c7c-0695-41e7-afa2-91d9b80a85fb)
+)
+![Real View](![Screenshot 2025-06-11 152407](https://github.com/user-attachments/assets/62f7eec6-e17b-476d-8312-ef48a871a6c6)
+)
 
 ---
 
